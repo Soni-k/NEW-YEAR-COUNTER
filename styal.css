@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aquamarine;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+}
+
+.container {
+	width: 400px;
+	background-color: white;
+	/* border: 2px solid black; */
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 black;
+	text-align: center;
+}
+
+.header {
+	background-color: blueviolet;
+	padding: 10px;
+	color: white;
+	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 10px;
+}
+
+.next-year {
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.counter {
+	display: flex;
+	justify-content: space-around;
+	background-color: blueviolet;
+	color: white;
+	padding: 10px;
+	/* margin-bottom: 10px; */
+}
+
+#day,
+#hours,
+#min,
+#sec {
+	font-size: 2rem;
+}
